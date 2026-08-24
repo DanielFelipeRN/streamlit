@@ -9,28 +9,7 @@ st.set_page_config(
 )
 
 # 2. CSS para alinear y ajustar espacios sin scroll
-st.markdown("""
-    <style>
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-        header {visibility: hidden;}
-        
-        .block-container {
-            padding-top: 0.8rem !important;
-            padding-bottom: 0.5rem !important;
-            padding-left: 1.2rem !important;
-            padding-right: 1.2rem !important;
-            max-width: 100% !important;
-        }
-        
-        /* Ajustar la separación entre las dos columnas principales */
-        [data-testid="column"] {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-        }
-    </style>
-""")
+
 
 # Título compacto superior
 st.markdown("### 🏢 Control Automatizado de Acceso - Recepción Financiera")
