@@ -30,7 +30,7 @@ st.markdown("""
             justify-content: flex-end;
         }
     </style>
-""", آہustar = True)
+""", ajustar = True)
 
 # Título compacto superior
 st.markdown("### 🏢 Control Automatizado de Acceso - Recepción Financiera")
